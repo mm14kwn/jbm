@@ -1,44 +1,63 @@
-title: The Journal of Byrnian Mechanics
-email: jbyrnianmechanics@gmail.com
-description: A journal on the tough questions that plague all scientists (or at least two PhD students when they should be demonstrating).
-baseurl: /jbm
-url: http://mm14kwn.github.io/jbm
-twitter_username: KNewmanOcean
-github_username:  mm14kwn
+# Mandatory settings
 
-sass:
-  style: compressed
+name: The Journal of Byrnian Mechanics
+paginate: 25
+paginate_path: "/posts/page/:num/"
+url: # add site url http://mm14kwn.github.io/jbm/
+blog_theme: light # Or use dark
 
-paginate: 12
-paginate_path: "/:num/"
+# Optional settings
 
-author_img_s: /img/author_s.png
-author_img: /img/author.png
+discus_identifier: # Add your Disqus identifier
+ga_analytics: # Add your GA Tracking Id
+rss_enabled: true # Change to false if not
+social:
+  dribbble: # Add your Dribbble handle
+  facebook: # Add your Facebook handle
+  github: mm14kwn # Add your GitHub handle
+  linkedin: # Add your LinkedIn handle
+  twitter: KNewmanOcean # Add your Twitter handle
+  email: jbyrnianmechanics@gmail.com # Add your Email address
+  bitcoin: # Add your Bitcoin link or address
 
-navigation:
-  - text: Home
-    url: /
-  - text: Categories
-    url: /categories.html
-  - text: Tags
-    url: /tags.html
+# Important settings (change at own risk)
 
-read_more: Read More
-env: production
-minify_html: false # Set to true only when it is production. Increase significant build time.
-
-# Build settings
-markdown: kramdown
-
-sticky: sticky # Tag used for sticky post
-sticky_count: 3 # Number of sticky post shown
-
-gems:
-  - jekyll-paginate
-  - jekyll-feed
-  
+assets:
+  compress:
+    css: true
+    js: true
+  features:
+    automatic_img_size: false
+  sources:
+    - _assets/bower
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendor/
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: articles_by_tag
 exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - bower.json
+  - circle.yml
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENSE
+  - vendor/
+gems:
+  - jekyll-assets
+  - jekyll-paginate
+  - jekyll-sitemap
+permalink: posts/:slug

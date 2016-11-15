@@ -1,35 +1,77 @@
-# Jekyll-Avalon
-[Demo](http://joshuaavalon.github.io/Jekyll-Avalon)
-![](https://raw.githubusercontent.com/joshuaavalon/Jekyll-Avalon/master/_screenshot/001.png)
+![](_assets/images/documentation/chalk-intro@2x.png)
 
-## About
-Jekyll-Avalon is a [Materialize](https://github.com/dogfalo/materialize) Jekyll theme.
+Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
 
-Featuring:
-* Material Design
-* Responsive Web Design
-* Tags and categories browsing
-* Lazy loading images
+## Overview
 
-## Installation
-This theme ***CANNOT* be built by GitHub. You have to build it yourself.
-Use the following command to build.
+Features:
+  - Dark and Light theme.
+  - Filter on tags.
+  - customizable pagination.
+  - Beautified link sharing in Facebook and other social media.
+  - Automatic time to read post indicator.
+  - Automatic RSS feed.
+  - About page.
+  - 404 page.
+  - SEO optimized.
+  - PageSpeed optimized.
+  - Cross browser support (supports all modern browsers).
+  - Media embed for videos.
+  - Enlarge images on click (like Medium).
 
-```
-bundle install
-jekyll serve
-```
+Integrations
+  - [Google Analytics](https://analytics.google.com/analytics/web/)
+  - [Google Fonts](https://fonts.google.com/)
+  - [Disqus](https://disqus.com/)
+  - [Ionicons](http://ionicons.com/)
+  - Social media links
 
-Then upload the content in `_site` to GitHub or your host.
+Used tools
+  - [Autoprefixer](https://github.com/postcss/autoprefixer)
+  - [Bower](http://bower.io/)
+  - [Circle CI](https://circleci.com/)
+  - [Html-proofer](https://github.com/gjtorikian/html-proofer)
+  - [Jekyll](http://jekyllrb.com/)
+  - [Jekyll assets](https://github.com/jekyll/jekyll-assets)
+  - [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+  - [HTML5 Boilerplate](https://html5boilerplate.com/) (Influenced by)
+  - [Kickster](http://kickster.nielsenramon.com/)
+  - [Retina.js](http://imulus.github.io/retinajs/)
+  - [STACSS](http://stacss.nielsenramon.com/)
 
-## Config
-Change everything you need in `_config.yml`. Change the footer in `_includes/footer.html`.
+## Usage
 
-If you want to change the color, go [here](https://github.com/dogfalo/materialize) to download SASS version 
-and replace the link in `_includes/head.html`.
+### Installation
 
-For comment support, you can use [Disqus](https://disqus.com/) and add the embed code to `_layouts/post.html`.
-Same for Google Analytics, add the embed code to `_includes/script.html`.
+If you haven't installed Ruby then go ahead and install it with: `brew install Ruby`.
+Next setup your environment:
 
-## Post
-All the usable fields available are in `2016-10-27-welcome-to-jekyll.markdown`.
+    bin/setup
+
+### Development
+
+Run Jekyll:
+
+    bundle exec jekyll serve
+
+### Deploy to GitHub Pages
+
+Run this in the root project folder in your console:
+
+    bin/deploy
+
+You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+
+[View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
+
+## License
+
+MIT License
+
+## Contributing
+
+1. Fork it ( https://github.com/[my-github-username]/chalk/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
