@@ -2,9 +2,7 @@
 title: The Journal of Byrnian Mechanics
 email: jbyrnianmechanics@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Journal of Byrnian Mechanics is a repository for answers to the deep questions that plague all scientists in their moments of intrigue (or at least two bored Ph.D. students who should be demonstrating). Any opinions posted are those of the author(s) alone, and do not represent any institution.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mm14kwn.github.io/jbm" # the base hostname & protocol for your site
 twitter_username: KNewmanOcean
@@ -34,4 +32,4 @@ disqus: false
 disqus_shortname: ''
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
