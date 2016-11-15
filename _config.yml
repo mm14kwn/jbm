@@ -1,63 +1,37 @@
-# Mandatory settings
+# Site settings
+title: The Journal of Byrnian Mechanics
+email: jbyrnianmechanics@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mm14kwn.github.io/jbm" # the base hostname & protocol for your site
+twitter_username: KNewmanOcean
+github_username:  mm14kwn
+google_play: ''
+google_plus_com: ''  # Community link
+google_plus_per: ''  #Personal link
+facebook_app_id: 
 
-name: The Journal of Byrnian Mechanics
-paginate: 25
-paginate_path: "/posts/page/:num/"
-url: # add site url http://mm14kwn.github.io/jbm/
-blog_theme: light # Or use dark
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
 
-# Optional settings
+more_vert:
+  option1:
+    name: Cool Option 1
+    link: www.myawesomelink.com
+  option2:
+    name: Cool Option 2
+    link: www.myawesomelink.com
+  option3:
+    name: Cool Option 3
+    link: www.myawesomelink.com
 
-discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
-rss_enabled: true # Change to false if not
-social:
-  dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
-  github: mm14kwn # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
-  twitter: KNewmanOcean # Add your Twitter handle
-  email: jbyrnianmechanics@gmail.com # Add your Email address
-  bitcoin: # Add your Bitcoin link or address
+disqus: false
+disqus_shortname: ''
 
-# Important settings (change at own risk)
-
-assets:
-  compress:
-    css: true
-    js: true
-  features:
-    automatic_img_size: false
-  sources:
-    - _assets/bower
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _vendor/
-collections:
-  my_tags:
-    output: true
-    permalink: /tag/:slug/
-defaults:
-  -
-    scope:
-      path: ""
-      type: my_tags
-    values:
-      layout: articles_by_tag
-exclude:
-  - .bowerrc
-  - .travis.yml
-  - bin/*
-  - bower.json
-  - circle.yml
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor/
-gems:
-  - jekyll-assets
-  - jekyll-paginate
-  - jekyll-sitemap
-permalink: posts/:slug
+# Build settings
+markdown: kramdown
