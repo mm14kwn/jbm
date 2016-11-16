@@ -7,26 +7,19 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mm14kwn.github.io/jbm" # the base hostname & protocol for your site
 twitter_username: KNewmanOcean
 github_username:  mm14kwn
-google_play: ''
-google_plus_com: ''  # Community link
-google_plus_per: ''  #Personal link
-facebook_app_id: 
 
 # Layout settings
-header_type: default  # values [ drawer, default ]
+header_type: drawer  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
+pagination_type: ops  # values [ ops, default ]
 
 more_vert:
   option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
+    name: About
+    link: https://mm14kwn.github.io/jbm/about/
   option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+    name: Our Inspiration
+    link: http://what-if.xkcd.com
 
 disqus: false
 disqus_shortname: ''
