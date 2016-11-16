@@ -26,4 +26,4 @@ Now, we've assumed a sphere here, but whether astronomical bodies become spheric
 
 ---
 
-So there obviously cannot be enough humanity to make a naturally spherical planet, even if all the humans who had ever lived (approximately $$1.07\times 10^11$$). However, what if we took all living organisms, from tiny bacteria up to blue whales? There seem to be varying estimates of the total world biomass, but a number of around $$10^15 \mathrm{kg}$$ crops up in a number of sources. Unfortunately, this is still not enough to form a spherical planet, by about six orders of magnitude!
+So there obviously cannot be enough humanity to make a naturally spherical planet, even if all the humans who had ever lived (approximately $$1.07\times 10^{11}$$). However, what if we took all living organisms, from tiny bacteria up to blue whales? There seem to be varying estimates of the total world biomass, but a number of around $$10^{15} \mathrm{kg}$$ crops up in a number of sources. Unfortunately, this is still not enough to form a spherical planet, by about six orders of magnitude!
