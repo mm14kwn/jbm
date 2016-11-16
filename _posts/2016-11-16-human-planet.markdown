@@ -18,5 +18,3 @@ Now we have a density, we could do with finding a mass. In an [article](http://d
 We can now work out the pressure at the centre of this sphere, using the Uniform Density Central Pressure Equation (which sounds grander than it is), $$P=\(\frac{3\pi}{8}\)\(\frac{GM^2}{R^4}\)$$, where $$M$$ is the mass, $$R$$ is the radius, and $$G$$ is Newton's gravitational constant. This gives a central pressure of $$303.5$$Pascals, or about a third of the atmospheric pressure on Mars!
 
 
-
-Image By <a href="//commons.wikimedia.org/wiki/User:Fernando_de_Gorocica" title="User:Fernando de Gorocica">Fernando de Gorocica</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=32830651">Link</a>

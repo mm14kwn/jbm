@@ -8,4 +8,3 @@ image: https://upload.wikimedia.org/wikipedia/commons/4/43/2006-01-14_Surface_wa
 ---
 The Journal of Byrnian Mechanics was an idea dreamt up by two Ph.D. students at the University of Liverpool to record the strange "what-if" scientific questions they came up with while they were meant to be helping a class of first years learn basic maths and physics. We are entirely aware that [XKCD](http://what-if.xkcd.com) has already done this, much better than we could ever hope to.
 
-Image By <a href="//commons.wikimedia.org/wiki/User:Roger_McLassus" class="mw-redirect" title="User:Roger McLassus">Roger McLassus</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=513043">Link</a>
