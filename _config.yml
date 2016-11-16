@@ -9,7 +9,7 @@ twitter_username: KNewmanOcean
 github_username:  mm14kwn
 
 # Layout settings
-header_type: drawer  # values [ drawer, default ]
+header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
