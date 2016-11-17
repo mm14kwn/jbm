@@ -2,7 +2,7 @@
 layout: post
 title:  "A Human Planet"
 date:   2016-11-16 08:34:20
-categories: space,physics,gravity
+categories: Physics Space Gravity
 author: K. Newman
 image: https://upload.wikimedia.org/wikipedia/commons/0/01/J%C3%BApiter_e_Io.jpg
 ---
