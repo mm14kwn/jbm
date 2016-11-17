@@ -28,7 +28,7 @@ Also pretty complicated, so what does it mean? One of the best ways to think abo
 
 ![Lakes on a cubic planet, from Chappell et. al. (2012)](/jbm/img/cube_lake.png){:class="img-responsive"}
 
-So what would it feel like to live on that planet? Leaving aside that such a planet with reasonable size and density would likely form a sphere under its own gravity (see the discussion in [A Human Planet](/2016-11-16-human-planet.html)), if you were standing on one face, everything would appear totally flat (because it is), however walking towards an edge or corner would feel like climbing a hill. As the atmosphere would still tend to be nearly spherical, these corners, being around $$3000~\mathrm{km}$$ "higher" than the centre of the faces, would appear like vast mountains rising out of the atmosphere into space.
+So what would it feel like to live on that planet? Leaving aside that such a planet with reasonable size and density would likely form a sphere under its own gravity (see the discussion in [A Human Planet](/jbm/physics/space/gravity/2016/11/16/human-planet.html)), if you were standing on one face, everything would appear totally flat (because it is), however walking towards an edge or corner would feel like climbing a hill. As the atmosphere would still tend to be nearly spherical, these corners, being around $$3000~\mathrm{km}$$ "higher" than the centre of the faces, would appear like vast mountains rising out of the atmosphere into space.
 
 ----
 Chappell, J.M., Chappell, M.J., Iqbal, A. and Abbott, D., 2012. The Gravity Field of a Cube. *Physics International*, **3**(2), pp. 50-57.
