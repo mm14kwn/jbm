@@ -15,9 +15,12 @@ pagination_type: default  # values [ ops, default ]
 
 more_vert:
   option1:
+    name: Home
+    link: https://mm14kwn.github.io/jbm/
+  option2:
     name: About
     link: https://mm14kwn.github.io/jbm/about/
-  option2:
+  option3:
     name: Our Inspiration
     link: http://what-if.xkcd.com
 
